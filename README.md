@@ -18,6 +18,11 @@ Launch Binder session and then follow these steps to kick things off and lay out
 
 IMAGE LINK HERE
 
+To do:
+- make sure binder link opens JupyterLab
+
+
+
 ## Technical notes
 
 I could get [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood), suggested [in response to Mara Averick's post](https://twitter.com/yeedle/status/1119101335238926338), to sort of start in a Binder session via MyBinder.org after installing `tmux`; however, it didn't really do much but show a little text. Weird.
