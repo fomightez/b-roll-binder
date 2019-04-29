@@ -6,4 +6,5 @@ curl -OL https://downloads.yeastgenome.org/sequence/S288C_reference/chromosomes/
 
 # install gtop via npm in ~/.local/bin
 npm install gtop --prefix ~/.local/bin
+npm install marked-terminal --prefix ~/.local/bin
 
