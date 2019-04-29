@@ -20,42 +20,70 @@ Additional inspiration also added from [Mara Averick](https://twitter.com/dataan
 
 ## How to
 
-Launch Binder session and then follow the steps below to kick things off and lay out the windows like so:
+Launch Binder session and then follow the steps below to kick things off and arrange the windows like the image above:
 
-![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
-- Kick off the scrolling helix using the included FASTA sequence with the command below.
+
+- **Open your first terminal window by using the menu to select 'File' > 'New' > 'Terminal'.**
+
+- **Open your second terminal window by using the menu to select 'File' > 'New' > 'Terminal'. Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over to the right until a blue outlined area fills roughly half the space in the window next to the first and release the click.**
+
+- **Open your third terminal window by using the menu to select 'File' > 'New' > 'Terminal'.  Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over just to the right of the first and to left of the second so the blue outline fills the space from top to bottom just to the left of the last one you dragged, and now release the click.**
+
+- **Open your fourth terminal window by using the menu to select 'File' > 'New' > 'Terminal'.  Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over right and down towards the middle so the blue outline fills the space below the one you just placed, and now release the click.**
+
+- **Click the `File Browser` icon on the left upper side of the panels to toggle closing the file navigation panel to give the four panels more real estate.**
+
+- OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
+
+- **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
 
 ```shell
 bash drawHelix.sh chrmt.fsa
 ```
 
-- Want a sequence more to your liking to be scrolling by on your screen? OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as:
+- Want a sequence more to your liking to be scrolling by on your screen?  
+OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as:
 
 ```shell
 bash drawHelix.sh myDNA.fa
 ```
 
-Where `myDNA.fa` is replaces with the anem of your sequence file.
+Where `myDNA.fa` above is replaced with the anem of your sequence file.
 
-- OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
+- **Move the right-hand border to the right of the scrolling DNA to the left if it leaves to much open space to the right side of the panel.**
 
-- start matrix ran with DNA focus by running the command below:
+
+- **In the panel in the middle top, start the matrix rain with DNA focus by running the command below:**
  
 ```shell
 unimatrix -s 96 -u 'ACTG'
 ```
 
 Type `q` at any point to stop the matrix-like rain.
-OPTIONAL:If you don't want it restricted to DNA bases, just type the following instead to start the matrix-like panel running:
+OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, just type the following instead to start the matrix-like panel running:
 
 ```shell
-unimatrix -s 96 -u 'ACTG'
+unimatrix
 ```
 
+- **In the panel in the middle bottom pane, start the countdown by executing the command below:**
+ 
+```shell
+termdown 59m
+```
 
-To do:
-- make sure binder link opens JupyterLab
+- **Finally, in the far-right pane, start `grop` by typing the command below and hitting return:**
+ 
+```shell
+gtop
+```
+
+- You should now have something like below. 
+
+![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
+
+Once you understand how to arrange, arrange the panels as you prefer.
 
 *In the future, I'd like to automate at least opening the terminal windows in the proper arrangement.*
 
