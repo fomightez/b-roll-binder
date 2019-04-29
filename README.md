@@ -1,7 +1,9 @@
 # b-roll-binder
 
 
->for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics" - quote from [Mike Love](https://twitter.com/mikelove/status/1011270925868781568)
+>'for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics"' - *Mike Love in [this post]](https://twitter.com/mikelove/status/1011270925868781568)*
+
+Binderizes that featured software and some others in order make a fancy-looking sciencing background dashboard look using Jupyter session served from MyBinder.org.
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
@@ -20,6 +22,8 @@ This is trying to implement that with some inspiration also added from [Mara Ave
 Launch Binder session and then follow the steps below to kick things off and lay out the windows like so:
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
+
+- OPTIONAL: Change setting to the dark theme by selecting it under '????????'.
 
 To do:
 - make sure binder link opens JupyterLab
