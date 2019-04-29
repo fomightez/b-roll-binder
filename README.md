@@ -1,8 +1,8 @@
 # b-roll-binder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/b-roll-binder/master)
 
->'for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics"'  
-- *Mike Love in [this post](https://twitter.com/mikelove/status/1011270925868781568)*
+>'for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics"'  - *Mike Love in [this post](https://twitter.com/mikelove/status/1011270925868781568)*
 
 Binderizes that featured software and some others in order make a fancy-looking sciencing background dashboard look using Jupyter session served from MyBinder.org.
 
@@ -10,7 +10,7 @@ Binderizes that featured software and some others in order make a fancy-looking 
 
 -----
 
-This is trying to implement that with some inspiration also added from [Mara Averick](https://twitter.com/dataandme/status/1119027392838799361) and some other sources I deemed cool.
+Additional inspiration also added from [Mara Averick](https://twitter.com/dataandme/status/1119027392838799361) and some other resources I deemed cool.
 
 ## Features
 - [Artem Babaian's drawHelix.sh](https://github.com/bioSyntax/bioSyntax/blob/master/dev/scripts/drawHelix.sh)
