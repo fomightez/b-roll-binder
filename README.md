@@ -24,6 +24,14 @@ Launch Binder session and then follow the steps below to kick things off and lay
 To do:
 - make sure binder link opens JupyterLab
 
+## Licenses
+
+The four featured software packages have the licenses linked below (most are GNU General Public License v3.0 and one is MIT:
+
+- [Artem Babaian's drawHelix.sh](https://github.com/bioSyntax/bioSyntax/blob/master/LICENSE.md)
+- [Can Güney Aksakalli's gtop](https://github.com/aksakalli/gtop/blob/master/LICENSE)
+- [William Mannard's unimatrix](https://github.com/will8211/unimatrix/blob/master/LICENSE)
+- [Torsten Rehn's termdown](https://github.com/trehn/termdown/blob/master/LICENSE)
 
 
 ## Technical notes
