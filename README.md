@@ -24,10 +24,24 @@ Launch Binder session and then follow the steps below to kick things off and lay
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
-- OPTIONAL: Change setting to the dark theme by selecting it under '????????'.
+- Kick off the scrolling helix using the included FASTA sequence with the command below.
+
+```shell
+bash drawHelix.sh chrmt.fsa
+```
+
+- Want a sequence more to your liking to be scrolling by on your screen? OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as:
+
+ ```shell
+bash drawHelix.sh myDNA.fa
+```
+
+- OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
 
 To do:
 - make sure binder link opens JupyterLab
+
+*In the future, I'd like to automate at least opening the terminal windows in the proper arrangement.*
 
 ## Licenses
 
