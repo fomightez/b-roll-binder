@@ -32,11 +32,27 @@ bash drawHelix.sh chrmt.fsa
 
 - Want a sequence more to your liking to be scrolling by on your screen? OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as:
 
- ```shell
+```shell
 bash drawHelix.sh myDNA.fa
 ```
 
+Where `myDNA.fa` is replaces with the anem of your sequence file.
+
 - OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
+
+- start matrix ran with DNA focus by running the command below:
+ 
+```shell
+unimatrix -s 96 -u 'ACTG'
+```
+
+Type `q` at any point to stop the matrix-like rain.
+OPTIONAL:If you don't want it restricted to DNA bases, just type the following instead to start the matrix-like panel running:
+
+```shell
+unimatrix -s 96 -u 'ACTG'
+```
+
 
 To do:
 - make sure binder link opens JupyterLab
