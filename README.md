@@ -1,6 +1,9 @@
 # b-roll-binder
 
+
 >for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics" - quote from [Mike Love](https://twitter.com/mikelove/status/1011270925868781568)
+
+![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
 -----
 
@@ -14,9 +17,9 @@ This is trying to implement that with some inspiration also added from [Mara Ave
 
 ## How to
 
-Launch Binder session and then follow these steps to kick things off and lay out the windows like so:
+Launch Binder session and then follow the steps below to kick things off and lay out the windows like so:
 
-IMAGE LINK HERE
+![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
 To do:
 - make sure binder link opens JupyterLab
