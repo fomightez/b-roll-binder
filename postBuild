@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Get draw helix and a sequence
+curl -OL https://raw.githubusercontent.com/bioSyntax/bioSyntax/master/dev/scripts/drawHelix.sh
+curl -OL https://downloads.yeastgenome.org/sequence/S288C_reference/chromosomes/fasta/chrmt.fsa
+
+# install gtop via npm in ~/.local/bin
+npm install gtop --prefix ~/.local/bin
+
