@@ -116,7 +116,7 @@ Excute what you want in the terminal from the command line tech tools. Options:
 
 See the How to for Jupyter section to see some other options for the first two options.
 
-Further Suggestions:  
+Further Suggestions for Running in RStudio:  
 On the right side of the terminal pane, click the window icon twice to make the terminal take up much of the real estate covering the source. You'll have to chase it to the bottom half after the first click. Then move the right border over to the right to expand real estate as much as you'd like for the terminal window.  
 From the menu, use 'Tools' > 'Global Options' > 'Appearance', and then under 'Editor theme' choose 'Tomorrow Night Bright'.
 
