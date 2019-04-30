@@ -111,11 +111,11 @@ From the menu, use 'Tools' > 'Global Options' > 'Appearance', and then under 'Ed
 Excute what you want in the terminal from the command line tech tools. Options:
 
 - `drawHelix.sh chrmt.fsa`
-- `unimatrix -s 96 -u 'ACTG'`
+- `unimatrix` or `unimatrix -s 96 -u 'ACTG'`
 - `gtop`
 - `termdown 59m`
 
-See the How to for Jupyter section to see some other options for the first two options. Seem you use `Ctrl-C` to stop `drawHelix` in RStudio terminal.
+See the How to for Jupyter section to see some other options for the `drawHelix.sh` one. Seem you use `Ctrl-C` to stop `drawHelix` in RStudio terminal.
 
 Further Suggestions for Running in RStudio:  
 On the right side of the terminal pane, click the window icon twice to make the terminal take up much of the real estate covering the source. You'll have to chase it to the bottom half after the first click. Then move the right border over to the right to expand real estate as much as you'd like for the terminal window.  
