@@ -82,7 +82,7 @@ unimatrix
 termdown 59m
 ```
 
-- **Finally, in the far-right pane, start `grop` by typing the command below and hitting return:**
+- **Finally, in the far-right pane, start `gtop` by typing the command below and hitting return:**
  
 ```shell
 gtop
