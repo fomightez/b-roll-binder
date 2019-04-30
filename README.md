@@ -43,7 +43,8 @@ bash drawHelix.sh chrmt.fsa
 ```
 
 - Want a sequence more to your liking to be scrolling by on your screen?  
-OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as the following, where `myDNA.fa` is replaced with the name of your sequence file:
+OPTIONAL:  
+Hit `q` to stop the included sequence from scrolling, upload a different DNA of you choosing (you can drag and drop into JupyterLab's file navigation panel)m and point the script at that. Such as the following, where `myDNA.fa` is replaced with the name of your sequence file:
 
 ```shell
 bash drawHelix.sh myDNA.fa
@@ -61,7 +62,8 @@ unimatrix -s 96 -u 'ACTG'
 ```
 
 You can click in the matrix-like rain panel and type `q` at any point to stop it.
-OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, when starting or restarting it just type the following instead to start the matrix-like panel running:
+OPTIONAL:  
+If you don't want the matrix-looking panel restricted to DNA bases, when starting or restarting it just type the following instead to start the matrix-like panel running:
 
 ```shell
 unimatrix
