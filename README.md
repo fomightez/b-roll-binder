@@ -36,6 +36,8 @@ Launch Binder session and then follow the steps below to kick things off and arr
 
 - OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
 
+	If it helps in getting the code into the right terminals, this README file can be opened in the running session. It is easiest to copy the code if you open it by right clicking and choosing to `Open With` > `Markdown Preview`
+
 - **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
 
 ```shell
