@@ -18,11 +18,9 @@ Additional inspiration also added from [Mara Averick](https://twitter.com/dataan
 - [William Mannard's unimatrix](https://github.com/will8211/unimatrix)
 - [Torsten Rehn's termdown](https://github.com/trehn/termdown)
 
-## How to
+## How To: Step-by-Step
 
-Launch Binder session and then follow the steps below to kick things off and arrange the windows like the image above:
-
-
+Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to kick things off and arrange the windows like the image above:
 
 - **Open your first terminal window by using the menu to select 'File' > 'New' > 'Terminal'.**
 
