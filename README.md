@@ -81,7 +81,7 @@ termdown 59m
 gtop
 ```
 
-- You should now have something like below. 
+- **Enjoy.** If you followed all those steps, you should now have something like below. 
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
