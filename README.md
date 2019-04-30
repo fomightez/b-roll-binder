@@ -4,7 +4,7 @@
 
 >'for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics"'  - *Mike Love in [this post](https://twitter.com/mikelove/status/1011270925868781568)*
 
-Binderizes that featured software and some others in order make a fancy-looking sciencing background dashboard look using Jupyter session served from MyBinder.org.
+Binderizes that featured software and some others in order make a fancy-looking 'science-ing' background dashboard look using Jupyter session served from MyBinder.org.
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
