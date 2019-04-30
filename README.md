@@ -110,7 +110,7 @@ Click on the 'Terminal' tab to bring it to the front.
 Excute what you want in the terminal from the command line tech tools. Options:
 
 - `bash drawHelix.sh chrmt.fsa`
-- `bash unimatrix`
+- `bash unimatrix -s 96 -u 'ACTG'`
 - `gtop`
 - `termdown 59m`
 
