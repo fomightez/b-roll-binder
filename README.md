@@ -32,7 +32,7 @@ Launch Binder session and then follow the steps below to kick things off and arr
 
 - **Open your fourth terminal window by using the menu to select 'File' > 'New' > 'Terminal'.  Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over right and down towards the middle so the blue outline fills the space below the one you just placed, and now release the click.**
 
-- **Click the `File Browser` icon on the left upper side of the panels to toggle closing the file navigation panel to give the four panels more real estate.**
+- **Click the `File Browser` icon that looks like a folder  on the left upper side of the panels, or in the menu from under untoggle 'View' > 'Show LeftSidebar' , to toggle closing the file navigation panel to give the four panels more real estate.** Thee shortcut for this on Macs is `command-B`.
 
 - OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
 
