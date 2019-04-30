@@ -85,6 +85,8 @@ gtop
 
 Once you understand how to arrange, arrange the panels as you prefer.
 
+TROUBLESHOOTING: note that if any of the middle, stacked panels seem to not be filling their area or the timer is really small, just use `q` to stop each one indivdually. And then use the up arrow to bring up the command last run and hit return to start running again. That usually fixes them.
+
 *In the future, I'd like to automate at least opening the terminal windows in the proper arrangement.*
 
 ## Licenses
