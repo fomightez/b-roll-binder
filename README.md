@@ -61,7 +61,7 @@ bash drawHelix.sh myDNA.fa
 unimatrix -s 96 -u 'ACTG'
 ```
 
-You can click in the matrix-like rain panel and type `q` at any point to stop it.
+You can click in the matrix-like rain panel and type `q` at any point to stop it.  
 OPTIONAL:  
 If you don't want the matrix-looking panel restricted to DNA bases, when starting or restarting it just type the following instead to start the matrix-like panel running:
 
