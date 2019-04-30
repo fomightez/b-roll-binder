@@ -4,7 +4,7 @@
 
 >'for the future when the camera crew wants B-roll and asks you to sit at your desk "doing bioinformatics"'  - *Mike Love in [this post](https://twitter.com/mikelove/status/1011270925868781568)*
 
-Binderizes that featured software and some others in order make a fancy-looking 'science-ing' background dashboard look using Jupyter session or Rstudio sessions served from MyBinder.org.
+Binderizes the featured software and some other techy-looking command line apps in order make a fancy-looking 'science-ing' background dashboard look using a Jupyter session or an Rstudio session served from MyBinder.org.
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
@@ -27,7 +27,7 @@ Additional inspiration also added from [Mara Averick](https://twitter.com/dataan
 
 For Jupyter, follow the steps in this section. RStudio is covered under 'Prefer RStudio' below.
 
-Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to kick things off and arrange the windows like the image above:
+Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to  arrange the panel windows like the image above and fill them with the running tech:
 
 - **Open your first terminal window by using the menu to select 'File' > 'New' > 'Terminal'.**
 
