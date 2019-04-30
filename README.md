@@ -36,7 +36,7 @@ Launch Binder session and then follow the steps below to kick things off and arr
 
 - OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
 
-	If it helps in getting the code into the right terminals, this README file can be opened in the running session. It is easiest to copy the code if you open it by right clicking and choosing to `Open With` > `Markdown Preview`
+If it helps in getting the code into the right terminals, this README file can be opened in the running session. It is easiest to copy the code if you open it by right clicking and choosing to `Open With` > `Markdown Preview`
 
 - **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
 
@@ -51,7 +51,7 @@ OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a differe
 bash drawHelix.sh myDNA.fa
 ```
 
-	Where `myDNA.fa` above is replaced with the name of your sequence file.
+Where `myDNA.fa` above is replaced with the name of your sequence file.
 
 - **Move the right-hand border to the right of the scrolling DNA to the left if it leaves to much open space to the right side of the panel.**
 
@@ -62,8 +62,8 @@ bash drawHelix.sh myDNA.fa
 unimatrix -s 96 -u 'ACTG'
 ```
 
-	Type `q` at any point to stop the matrix-like rain.
-	OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, just type the following instead to start the matrix-like panel running:
+Type `q` at any point to stop the matrix-like rain.
+OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, just type the following instead to start the matrix-like panel running:
 
 ```shell
 unimatrix
