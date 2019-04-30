@@ -49,7 +49,7 @@ OPTIONAL: Hit `q` to stop the included sequence from scrolling, upload a differe
 bash drawHelix.sh myDNA.fa
 ```
 
-Where `myDNA.fa` above is replaced with the anem of your sequence file.
+	Where `myDNA.fa` above is replaced with the name of your sequence file.
 
 - **Move the right-hand border to the right of the scrolling DNA to the left if it leaves to much open space to the right side of the panel.**
 
@@ -60,8 +60,8 @@ Where `myDNA.fa` above is replaced with the anem of your sequence file.
 unimatrix -s 96 -u 'ACTG'
 ```
 
-Type `q` at any point to stop the matrix-like rain.
-OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, just type the following instead to start the matrix-like panel running:
+	Type `q` at any point to stop the matrix-like rain.
+	OPTIONAL: If you don't want the matrix-looking panel restricted to DNA bases, just type the following instead to start the matrix-like panel running:
 
 ```shell
 unimatrix
