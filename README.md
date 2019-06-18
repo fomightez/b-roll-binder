@@ -96,6 +96,10 @@ Once you understand how to arrange, arrange the panels as you prefer.
 
 Optional: open any interesting structure in PyMol or Chimera and place the window to either side of your browser.
 
+Optional: You can also run [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood) by typing `hollywood`.
+
+Optional: You  could instead just launch one termina window and use tmux to launch and arrange panes in which you can then run the software highlight above.
+
 TROUBLESHOOTING:  
 note that if any of the middle, stacked panels seem to not be filling their area or the timer is really small, just use `q` to stop each one indivdually. And then use the up arrow to bring up the command last run and hit return to start running again. That usually fixes them.
 
@@ -116,6 +120,7 @@ Excute what you want in the terminal from the command line tech tools. Options:
 - `unimatrix` or `unimatrix -s 96 -u 'ACTG'`
 - `gtop`
 - `termdown 59m`
+- `hollywood`
 
 See the How to for Jupyter section to see some other options for the `drawHelix.sh` one. Seem you use `Ctrl-C` to stop `drawHelix` in RStudio terminal.
 
@@ -135,8 +140,9 @@ The four featured software packages have the licenses linked below (most are GNU
 
 ## Technical notes
 
-I could get [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood), suggested [in response to Mara Averick's post](https://twitter.com/yeedle/status/1119101335238926338), to sort of start in a Binder session via MyBinder.org after installing `tmux`; however, it didn't really do much but show a little text. Weird.  
 I added tmux permanently now so that panes in a single terminal it can be used if desired.
+I added [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood), suggested [in response to Mara Averick's post](https://twitter.com/yeedle/status/1119101335238926338) later using `apt.txt`.  
+
 
 To get started click the badge below:
 
