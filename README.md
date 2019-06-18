@@ -135,7 +135,8 @@ The four featured software packages have the licenses linked below (most are GNU
 
 ## Technical notes
 
-I could get [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood), suggested [in response to Mara Averick's post](https://twitter.com/yeedle/status/1119101335238926338), to sort of start in a Binder session via MyBinder.org after installing `tmux`; however, it didn't really do much but show a little text. Weird.
+I could get [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood), suggested [in response to Mara Averick's post](https://twitter.com/yeedle/status/1119101335238926338), to sort of start in a Binder session via MyBinder.org after installing `tmux`; however, it didn't really do much but show a little text. Weird.  
+I added tmux permanently now so that panes in a single terminal it can be used if desired.
 
 To get started click the badge below:
 
