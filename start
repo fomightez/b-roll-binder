@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Import the workspace
+jupyter lab workspaces import jupyterlab-workspace.json
+
+# this must be last line according to 
+# https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"

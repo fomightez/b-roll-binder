@@ -1,0 +1,95 @@
+{
+  "data": {
+    "terminal:4": {
+      "data": {
+        "name": "4"
+      }
+    },
+    "terminal:3": {
+      "data": {
+        "name": "3"
+      }
+    },
+    "terminal:2": {
+      "data": {
+        "name": "2"
+      }
+    },
+    "terminal:1": {
+      "data": {
+        "name": "1"
+      }
+    },
+    "layout-restorer:data": {
+      "main": {
+        "dock": {
+          "type": "split-area",
+          "orientation": "horizontal",
+          "sizes": [
+            0.26875,
+            0.26875,
+            0.4625
+          ],
+          "children": [
+            {
+              "type": "tab-area",
+              "currentIndex": 0,
+              "widgets": [
+                "terminal:1"
+              ]
+            },
+            {
+              "type": "split-area",
+              "orientation": "vertical",
+              "sizes": [
+                0.5,
+                0.5
+              ],
+              "children": [
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "terminal:2"
+                  ]
+                },
+                {
+                  "type": "tab-area",
+                  "currentIndex": 0,
+                  "widgets": [
+                    "terminal:3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tab-area",
+              "currentIndex": 0,
+              "widgets": [
+                "terminal:4"
+              ]
+            }
+          ]
+        },
+        "mode": "multiple-document",
+        "current": "terminal:1"
+      },
+      "left": {
+        "collapsed": true,
+        "widgets": [
+          "filebrowser",
+          "running-sessions",
+          "command-palette",
+          "tab-manager"
+        ]
+      },
+      "right": {
+        "collapsed": true,
+        "widgets": []
+      }
+    }
+  },
+  "metadata": {
+    "id": "/lab"
+  }
+}
