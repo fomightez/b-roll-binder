@@ -13,3 +13,5 @@ npm install gtop --prefix ~/.local/bin
 cd ~/.local/bin
 ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
 
+# Import the workspace
+jupyter lab workspaces import jupyterlab-workspace.json
