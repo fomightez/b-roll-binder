@@ -27,21 +27,13 @@ Additional inspiration also added from [Mara Averick](https://twitter.com/dataan
 
 For Jupyter, follow the steps in this section. RStudio is covered under 'Prefer RStudio' below.
 
-Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to  arrange the panel windows like the image above and fill them with the running tech:
+Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to fill the panels with the running tech like in the image above:
 
-- **Open your first terminal window by using the menu to select 'File' > 'New' > 'Terminal'.**
+- When the session launches the four terminal panels should be arranged in your browser window much like in the image above. You'll want to stretch out the browser window to fill your screen as much as possible.
 
-- **Open your second terminal window by using the menu to select 'File' > 'New' > 'Terminal'. Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over to the right until a blue outlined area fills roughly half the space in the window next to the first and release the click.**
+- RECOMMENDED: Change to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark'.
 
-- **Open your third terminal window by using the menu to select 'File' > 'New' > 'Terminal'.  Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over just to the right of the first and to left of the second so the blue outline fills the space from top to bottom just to the left of the last one you dragged, and now release the click.**
-
-- **Open your fourth terminal window by using the menu to select 'File' > 'New' > 'Terminal'.  Left-click on the named tab for this panel, and keep pressing down the left-click, drag this new one over right and down towards the middle so the blue outline fills the space below the one you just placed, and now release the click.**
-
-- **Click the `File Browser` icon that looks like a folder  on the left upper side of the panels, or in the menu from under untoggle 'View' > 'Show LeftSidebar' , to toggle closing the file navigation panel to give the four panels more real estate.** Thee shortcut for this on Macs is `command-B`.
-
-- OPTIONAL: Change setting to the dark theme by selecting it under 'Settings' > 'JupyterLab Theme' > 'JupyterLab Dark.
-
-If it helps in getting the code into the right terminals, this README file can be opened in the running session. It is easiest to copy the code if you open it by right clicking and choosing to `Open With` > `Markdown Preview`
+If it helps in getting the code into the right terminals, this `README` file can be opened in the running session. It is easiest to copy the code if you open it by right clicking and choosing to `Open With` > `Markdown Preview`. But how do you get to that file in the session? Because when the session opens the layout is set with the file browser hidden, you'll need to toggle open the file browser. To do this, click the File Browser icon that looks like a folder on the left upper side of the panels, or in the menu from under toggle on 'View' > 'Show LeftSidebar' to open the file navigation panel. The shortcut for this on Macs is command-B. You may wish to click on the name of the `README.md` file in its tab and drag it over to cover the panel on the far right because the one on the left that it opens into by default gets compressed the most when you open the file browser pane.
 
 - **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
 
@@ -92,18 +84,18 @@ gtop
 
 ![b-roll_layout_look](imgs/sciencing_JupyterLab.png)
 
-Once you understand how to arrange, arrange the panels as you prefer.
+The panels are actually fully able to be moved and you can drag the borders to adjust to arrange the panels as you prefer.
 
-Optional: open any interesting structure in PyMol or Chimera and place the window to either side of your browser.
+Optional: open any interesting structure in PyMol or UCSF Chimera and place the window to either side of your browser.
 
 Optional: You can also run [DustinKirkland's Hollywood](https://github.com/dustinkirkland/hollywood) by typing `hollywood`.
 
-Optional: You  could instead just launch one termina window and use tmux to launch and arrange panes in which you can then run the software highlight above.
+Optional for tmux pros: You could instead just launch one terminal window and use tmux to launch and arrange panes in which you can then run the software highlighted above.
 
 TROUBLESHOOTING:  
-note that if any of the middle, stacked panels seem to not be filling their area or the timer is really small, just use `q` to stop each one indivdually. And then use the up arrow to bring up the command last run and hit return to start running again. That usually fixes them.
+Note: That if any of the middle, stacked panels seem to not be filling their area or the timer is really small, just use `q` to stop each one indivdually. And then use the up arrow to bring up the command last run and hit return to start running again. That usually fixes them.
 
-*In the future, I'd like to automate at least opening the terminal windows in the proper arrangement.*
+(*Of course it would be nice if the terminals opened with the commands needed to be run in them already at the prompts; however, [due to security concerns](https://github.com/jupyterlab/jupyterlab/issues/6158#issuecomment-482331576) that isn't possible.*)
 
 ## Prefer RStudio?
 
