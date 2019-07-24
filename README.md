@@ -27,14 +27,15 @@ Additional inspiration also added from [Mara Averick](https://twitter.com/dataan
 
 For Jupyter, follow the steps in this section. RStudio is covered under 'Prefer RStudio' below.
 
-Launch Binder session from the `launch binder badge above` or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to fill the panels with the running tech like in the image above:
+Launch Binder session from the `launch binder` badge above or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to fill the panels with the running tech like in the image above:
 
 - When the session launches the four terminal panels should be arranged in your browser window much like in the image above. You'll want to stretch out the browser window to fill your screen as much as possible.
 
-- The remaining steps just put code into each of the terminals to execute to trigger filling it with the appropriate running program.
+- The remaining steps just put code into each of the terminal panels to execute in order to fill it with the appropriate running program.
 
-If it helps in getting the code into the right terminals, this `README` file can be opened in the running session. But how do you get to that file in the session? Because when the session opens the layout is set with the file browser hidden, you'll need to toggle open the file browser. To do this, click the File Browser icon that looks like a folder on the left upper side of the panels, or in the menu from under toggle on 'View' > 'Show LeftSidebar' to open the file navigation panel. The shortcut for this on Macs is command-B. You may wish to click on the name of the `README.md` file in its tab and drag it over to cover the panel on the far right because the one on the left that it opens into by default gets compressed the most when you open the file browser pane.  
-Note: It is easiest to find and copy the code if you open the `READEME` in the running session by right-clicking and choosing to `Open With` > `Markdown Preview`. 
+If it helps in getting the code into the right terminals, this `README` file can be opened in the running session. But how do you get to that file in the session? Because when the session opens the layout is set with the file browser hidden, you'll need to toggle open the file browser. To do this, click the File Browser icon that looks like a folder on the left upper side of the panels, or in the menu from under toggle on 'View' > 'Show LeftSidebar' to open the file navigation panel. The shortcut for this on Macs is command-B.  
+Note: It is easiest to find and copy the code if you open the `READEME` in the running session by right-clicking and choosing to `Open With` > `Markdown Preview`.  
+You may wish to click on the name of the `README.md` file in its tab and drag it over to cover the panel on the far right because the one on the left that it opens into by default gets compressed the most when you open the file browser pane.  
 
 - **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
 

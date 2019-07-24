@@ -12,6 +12,3 @@ npm install gtop --prefix ~/.local/bin
 # to create alias for gtop ("~/.local/bin" is in the PATH)
 cd ~/.local/bin
 ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
-
-# Import the workspace
-jupyter lab workspaces import jupyterlab-workspace.json
