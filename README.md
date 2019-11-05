@@ -29,7 +29,7 @@ For Jupyter, follow the steps in this section. RStudio is covered under 'Prefer 
 
 Launch Binder session from the `launch binder` badge above or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to fill the panels with the running tech like in the image above:
 
-- When the session launches the four terminal panels should be arranged in your browser window much like in the image above. You'll want to stretch out the browser window to fill your screen as much as possible.
+- When the session launches the four terminal panels should be arranged in your browser window much like in the image above. You'll want to stretch out the browser window to fill your screen as much as possible.<=== UPDATE: **For right now, you need to open the four `terminal` windows and arrange them how you like as the workspace isn't opening correctly. Hopefully can be fixed soon.**
 
 - The remaining steps just put code into each of the terminal panels to execute in order to fill it with the appropriate running program.
 
