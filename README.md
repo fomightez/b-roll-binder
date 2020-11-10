@@ -29,12 +29,12 @@ For Jupyter, follow the steps in this section. RStudio is covered under 'Prefer 
 
 Launch Binder session from the `launch binder` badge above or click [here]((https://mybinder.org/v2/gh/fomightez/b-roll-binder/master?urlpath=lab)) and then follow the steps below to fill the panels with the running tech like in the image above:
 
-- When the session launches the four terminal panels should be arranged in your browser window much like in the image above. You'll want to stretch out the browser window to fill your screen as much as possible.<=== UPDATE: **For right now, you need to open the four `terminal` windows and arrange them how you like as the workspace isn't opening correctly. Hopefully can be fixed soon.**
+- When the session launches, the four terminal panels should already be arranged in your browser window much like in the image above. You'll probably want to stretch out the browser window to fill your screen as much as possible.
 
-- The remaining steps just put code into each of the terminal panels to execute in order to fill it with the appropriate running program.
+- The remaining steps just step through placing code into each of the terminal panels to execute so that the appropriate program starts.
 
 If it helps in getting the code into the right terminals, this `README` file can be opened in the running session. But how do you get to that file in the session? Because when the session opens the layout is set with the file browser hidden, you'll need to toggle open the file browser. To do this, click the File Browser icon that looks like a folder on the left upper side of the panels, or in the menu from under toggle on 'View' > 'Show LeftSidebar' to open the file navigation panel. The shortcut for this on Macs is command-B.  
-Note: It is easiest to find and copy the code if you open the `READEME` in the running session by right-clicking and choosing to `Open With` > `Markdown Preview`.  
+Note: It is easiest to view and copy the code if you open the `READEME` in the running session by right-clicking on the file and choosing to `Open With` > `Markdown Preview`.  
 You may wish to click on the name of the `README.md` file in its tab and drag it over to cover the panel on the far right because the one on the left that it opens into by default gets compressed the most when you open the file browser pane.  
 
 - **In the panel on the far left, kick off the scrolling helix using the included FASTA sequence with the command below followed by hitting return.**
@@ -53,10 +53,10 @@ bash drawHelix.sh myDNA.fa
 
 
 
-- **Move the right-hand border to the right of the scrolling DNA to the left if it leaves to much open space to the right side of the panel.**
+- **If too much open space is displaying on the right side of the panel, move the right-hand border, found to the right of the scrolling DNA, over to the left.**
 
 
-- **In the panel in the middle top, start the matrix rain with DNA focus by running the command below:**
+- **In the panel in the middle top, start the matrix-like rain, as if it is featuring DNA, by running the command below:**
  
 ```shell
 unimatrix -s 96 -u 'ACTG'
