@@ -131,6 +131,10 @@ The four featured software packages have the licenses linked below (most are GNU
 - [William Mannard's unimatrix](https://github.com/will8211/unimatrix/blob/master/LICENSE)
 - [Torsten Rehn's termdown](https://github.com/trehn/termdown/blob/master/LICENSE)
 
+## Related
+
+[genact - a nonsense activity generator](https://github.com/svenstaro/genact) (Even has a [web-based version](https://github.com/svenstaro/genact#web-usage).)
+
 
 ## Technical notes
 
