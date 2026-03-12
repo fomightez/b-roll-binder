@@ -12,3 +12,10 @@ npm install gtop --prefix ~/.local/bin
 # to create alias for gtop ("~/.local/bin" is in the PATH)
 cd ~/.local/bin
 ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
+
+
+#Update trying to get workspace to work from MyBinder , basing it on https://github.com/jupyterlab/jupyterlab-demo/pull/130 and https://github.com/jupyterlab/jupyterlab-demo/commit/d4e63f20a06096d05310069bad05d3746d99b299
+# Setup a workspace
+# - activate the environment otherwise the workspace is imported
+#   in the user home folder rather than in the prefix path (new default)
+conda run -n notebook jupyter lab workspaces import .binder/workspace.json
