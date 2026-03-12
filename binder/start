@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Import the workspace
-#jupyter lab workspaces import binder/workspace.json #Altered AND moved to postBuild to be like current https://github.com/jupyterlab/jupyterlab-demo where `workspace.json` does actually load upon launch
+jupyter lab workspaces import ./binder/workspace.json
 
 # this must be last line according to 
 # https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts

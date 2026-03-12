@@ -15,13 +15,12 @@ ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
 
 
 
-
+# Now that I know below set up and loading workspace works, which I had based on https://github.com/jupyterlab/jupyterlab-demo/pull/130 and https://github.com/jupyterlab/jupyterlab-demo/commit/d4e63f20a06096d05310069bad05d3746d99b299 
+# now I am going to try putting it back over in `start`
 # change directory back to root / home to set up for next command
-cd ~
-
-
+#cd ~
 #Update trying to get workspace to work from MyBinder , basing it on https://github.com/jupyterlab/jupyterlab-demo/pull/130 and https://github.com/jupyterlab/jupyterlab-demo/commit/d4e63f20a06096d05310069bad05d3746d99b299
 # Setup a workspace
 # - activate the environment otherwise the workspace is imported
 #   in the user home folder rather than in the prefix path (new default)
-conda run -n notebook jupyter lab workspaces import ./binder/workspace.json
+#conda run -n notebook jupyter lab workspaces import ./binder/workspace.json
