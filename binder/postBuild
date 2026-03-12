@@ -18,4 +18,4 @@ ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
 # Setup a workspace
 # - activate the environment otherwise the workspace is imported
 #   in the user home folder rather than in the prefix path (new default)
-conda run -n notebook jupyter lab workspaces import binder/workspace.json
+conda run -n notebook jupyter lab workspaces import ./binder/workspace.json
