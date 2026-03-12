@@ -14,6 +14,12 @@ cd ~/.local/bin
 ln -s ~/.local/bin/node_modules/gtop/bin/gtop gtop
 
 
+
+
+# change directory back to root / home to set up for next command
+cd ~
+
+
 #Update trying to get workspace to work from MyBinder , basing it on https://github.com/jupyterlab/jupyterlab-demo/pull/130 and https://github.com/jupyterlab/jupyterlab-demo/commit/d4e63f20a06096d05310069bad05d3746d99b299
 # Setup a workspace
 # - activate the environment otherwise the workspace is imported
