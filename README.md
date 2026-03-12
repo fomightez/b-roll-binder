@@ -134,6 +134,7 @@ The four featured software packages have the licenses linked below (most are GNU
 ## Related
 
 - [genact - a nonsense activity generator](https://github.com/svenstaro/genact) (Even has a [web-based version](https://github.com/svenstaro/genact#web-usage).)
+- [Terminal-based Protien Structure Viewer](https://github.com/001TMF/ProteinView) let's you interactivel explore 3D visulaization of of PDB/mmCIF structures in your terminal. *This does something serious but maybe could work as a panel for b-roll binder?*
 - [tiptop](https://github.com/nschloe/tiptop) is a command-line system monitoring tool in the spirit of top that displays various interesting system stats and graphs them. *This does something serious but maybe could work as a panel for b-roll binder? Alternative to the gtop panel?*
 
 
