@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Import the workspace
-jupyter lab workspaces import ./binder/workspace.json
+# (most recently (March 2026) based on working example from https://github.com/jupyterlab/jupyterlab-demo/pull/130 where metadata in the workspace needed 
+# changing and then when established import of workspace working from postBuild, I moved to equivalent import command back to here.)
+jupyter lab workspaces import ./binder/workspace.json 
 
 # this must be last line according to 
 # https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
